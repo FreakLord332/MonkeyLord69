@@ -1,0 +1,100 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Exo 2', 'Orbitron', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #000;
+}
+
+/* Top-Balken */
+.top-bars {
+    display: flex;
+    width: 100%;
+    gap: 0;
+    padding: 0;
+    background-color: #111;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+}
+
+.bar {
+    flex: 1;
+    height: 290px;
+    background-color: #333;
+    border: 1px solid #555;
+    
+    /* Text-Styling */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Exo 2', 'Orbitron', Arial, sans-serif;
+    text-shadow: 0 0 3px #000000;
+}
+
+/* Balken-Farben */
+.bar.color-red { background-color: #8e4dc3; }
+.bar.color-blue { background-color: #1b85f0; }
+.bar.color-orange { background-color: #ee3029; }
+.bar.color-misato { background-color: #941d36; }
+.bar.color-gendo-yui { background-color: #4A4A4A; }
+.bar.color-kaworu { background-color: #F0F0F0; }
+
+/* Titelbild */
+.title-image-box {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-image {
+    width: 1200px;
+    height: 400px;
+    max-width: 100%;
+    border-top: 15px solid #000000;
+    border-left: 15px solid #000000;
+}
+
+/* Content-Boxen */
+.content-box {
+    width: 100%;
+    min-height: 200px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #111;
+    border: 1px solid #333;
+}
+
+.content-box.mid {
+    background-color: #1a1a1a;
+}
+
+/* Bilder */
+.character-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.Decorative-Image1 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0 20px auto;
+    width: 250px;
+}
